@@ -145,7 +145,7 @@ namespace TruckETCExitus.Device
             cli.clientConnHandler = ClientConnHandler;
             cli.recvDataHandler = RecvDataHandler;
 
-            tmrBreakInterval.Interval = 70000;
+            tmrBreakInterval.Interval = 60000;
             tmrBreakInterval.Enabled = true;
             tmrBreakInterval.Elapsed += new System.Timers.ElapsedEventHandler(tmrbreakIntervalElapsed);
         }
